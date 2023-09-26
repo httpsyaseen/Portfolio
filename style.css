@@ -1,0 +1,67 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+.logo {
+  color: var(--primary-b-400, #6070ff);
+  text-align: center;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  width: 76px;
+  height: 20px;
+  padding: 10px 12px;
+}
+
+.menu-icon {
+  padding: 8px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 12px;
+  padding: 114px 24px;
+  background-image: url("./assets/images/header-shapes\ mobile.png");
+  background-repeat: no-repeat;
+}
+
+.intro {
+  color: var(--neutrals-n-800, #172b4d);
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.description {
+  color: var(--neutrals-n-600, #344563);
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 327px;
+}
+
+.connect-logo {
+  color: var(--primary-b-300, #7f8cff);
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  align-self: flex-start;
+}
+
+.social-media-icons {
+  align-self: flex-start;
+}
+
+.social-media-icons img {
+  width: 170.167px;
+  height: 20px;
+}
