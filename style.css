@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+.logo {
+  color: var(--primary-b-400, #6070ff);
+  text-align: center;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  width: 76px;
+  height: 20px;
+  padding: 10px 12px;
+}
+
+.menu-icon {
+  padding: 8px;
+}
