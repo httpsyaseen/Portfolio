@@ -65,3 +65,185 @@
   width: 170.167px;
   height: 20px;
 }
+
+.work-section {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 88px;
+  padding: 114px 16px;
+}
+
+.work-card {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 9px;
+  border: 0.01px solid lightgray;
+}
+
+.project-title {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: var(--neutrals-n-800, #172b4d);
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px; /* 137.5% */
+}
+
+.main-head {
+  color: var(--neutrals-n-600, #344563);
+}
+
+.project-intro {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.project-intro p {
+  margin: 0;
+  color: var(--neutrals-n-100, #7a869a);
+}
+
+.project-description {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--neutrals-n-600, #344563);
+}
+
+.project-skills ul {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  list-style: none;
+  display: flex;
+  gap: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+.project-skills ul li {
+  color: var(--primary-b-400, #6070ff);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.36px;
+  padding: 4px 12px;
+  border-radius: 8px;
+  background: var(--primary-b-50, #ebebff);
+}
+
+.project-button {
+  padding: 12px 0;
+}
+
+.see-project {
+  color: var(--primary-b-500, #396df2);
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0.51px;
+  border-radius: 8px;
+  border: 1px solid var(--primary-b-400, #6070ff);
+  background-color: white;
+  padding: 8px;
+}
+
+.about-myself {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 24px;
+  padding: 114px 24px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.about-heading {
+  color: var(--neutrals-n-800, #172b4d);
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  margin: 0;
+}
+
+.about-description {
+  color: var(--neutrals-n-600, #344563);
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.about-connect {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-connect p {
+  color: var(--primary-b-300, #7f8cff);
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.about-social-icons {
+  display: flex;
+  align-items: stretch;
+}
+
+.about-social-icons img {
+  padding: 8px;
+}
+
+.resume-button {
+  color: var(--primary-b-500, #396df2);
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0.51px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid var(--primary-b-400, #6070ff);
+  background-color: white;
+}
+
+.portfolio {
+  list-style: none;
+  padding: 0 0;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 16px 26px 16px 12px;
+  border-bottom: 0.1px solid rgb(192, 191, 191);
+}
+
+.drop-down-items {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  color: var(--neutrals-n-700, #253858);
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 12px 0;
+  border-radius: 8px;
+  padding: 12px 12px;
+  background: var(--neutrals-n-10, #f7f7f9);
+}
