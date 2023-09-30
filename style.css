@@ -247,3 +247,33 @@
   padding: 12px 12px;
   background: var(--neutrals-n-10, #f7f7f9);
 }
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-b-400, #6070ff);
+  background-repeat: no-repeat;
+  gap: 12px;
+  padding: 100px 24px 24px 24px;
+  background-image: url("./assets/svg/contact\ form\ shapes-mobile.svg");
+  background-position: right;
+  border-radius: 60px 0 0 0;
+}
+
+.contact {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  color: var(--neutrals-n-0, #fff);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.contact-description {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  color: var(--primary-b-50, #ebebff);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
