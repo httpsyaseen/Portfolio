@@ -1,8 +1,13 @@
+body {
+  background: var(--neutrals-n-10, #f7f7f9);
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   height: 48px;
   flex-shrink: 0;
+  background-color: white;
 }
 
 .logo {
@@ -29,6 +34,8 @@
   padding: 114px 24px;
   background-image: url("./assets/images/header-shapes\ mobile.png");
   background-repeat: no-repeat;
+  background-color: white;
+  border-radius: 0 0 0 80px;
 }
 
 .intro {
@@ -80,6 +87,7 @@
   gap: 12px;
   border-radius: 9px;
   border: 0.01px solid lightgray;
+  background-color: white;
 }
 
 .project-title {
@@ -157,6 +165,8 @@
   grid-template-columns: auto;
   gap: 24px;
   padding: 114px 24px;
+  background-color: white;
+  border-radius: 0 60px 0 0;
 }
 
 .about-me {
@@ -246,4 +256,91 @@
   border-radius: 8px;
   padding: 12px 12px;
   background: var(--neutrals-n-10, #f7f7f9);
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-b-400, #6070ff);
+  background-repeat: no-repeat;
+  gap: 12px;
+  padding: 100px 24px 24px 24px;
+  background-image: url("./assets/svg/contact\ form\ shapes-mobile.svg");
+  background-position: right;
+  border-radius: 60px 0 0 0;
+}
+
+.contact {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  color: var(--neutrals-n-0, #fff);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.contact-description {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  color: var(--primary-b-50, #ebebff);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 35px;
+}
+
+.email,
+.feedback,
+.name {
+  padding: 12px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--base-100, #cfd8dc);
+  background: var(--mono-white, #fff);
+}
+
+.email::placeholder,
+.name::placeholder {
+  color: var(--neutral-n-800, #172b4d);
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.feedback::placeholder {
+  color: var(--neutrals-n-60, #b3bac5);
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.get-in-touch {
+  color: var(--primary-b-400, #6070ff);
+  text-align: center;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.51px;
+  padding: 12px 16px;
+  align-items: center;
+  background-color: white;
+  align-self: flex-start;
+  border-radius: 8px;
+  border: 1px solid var(--base-100, #cfd8dc);
+}
+
+.email:focus,
+.name:focus,
+.feedback:focus {
+  outline: none;
 }
