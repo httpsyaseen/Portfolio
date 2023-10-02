@@ -125,7 +125,7 @@ npx stylelint "**/*.{css,scss}"
 - Twitter: [@twitterhandle](https://twitter.com/dearyaseen1)
 
 
-👤 **Harshika Govind**
+👤 **Ahmed Ikram**
 
 - GitHub: [@githubhandle](https://github.com/AhmedIkram-SE)
 
