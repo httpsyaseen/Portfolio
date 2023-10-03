@@ -1,5 +1,6 @@
 body {
   background: var(--neutrals-n-10, #f7f7f9);
+  margin:0;
 }
 
 .header {
