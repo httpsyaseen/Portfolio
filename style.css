@@ -26,6 +26,7 @@ body {
   width: 76px;
   height: 20px;
   padding: 10px 12px;
+  cursor: pointer;
 }
 
 .h-about {
@@ -72,6 +73,7 @@ body {
   font-weight: 500;
   line-height: 24px;
   align-self: flex-start;
+  cursor: pointer;
 }
 
 .social-media-icons {
@@ -81,6 +83,7 @@ body {
 .social-media-icons img {
   width: 170.167px;
   height: 20px;
+  cursor: pointer;
 }
 
 .work-section {
@@ -120,16 +123,12 @@ body {
 
 .main-head {
   color: var(--neutrals-n-600, #344563);
+  font-weight: 600;
 }
 
 .project-intro {
   font-family: Poppins, Arial, Helvetica, sans-serif;
   font-size: 13px;
-  font-weight: 600;
-}
-
-.project-intro p {
-  margin: 0;
   color: var(--neutrals-n-100, #7a869a);
 }
 
@@ -160,6 +159,7 @@ body {
   padding: 4px 12px;
   border-radius: 8px;
   background: var(--primary-b-50, #ebebff);
+  cursor: pointer;
 }
 
 .project-button {
@@ -176,6 +176,7 @@ body {
   border: 1px solid var(--primary-b-400, #6070ff);
   background-color: white;
   padding: 8px;
+  cursor: pointer;
 }
 
 .about-myself {
@@ -231,6 +232,7 @@ body {
 
 .about-social-icons img {
   padding: 8px;
+  cursor: pointer;
 }
 
 .resume-button {
@@ -243,6 +245,7 @@ body {
   border-radius: 8px;
   border: 1px solid var(--primary-b-400, #6070ff);
   background-color: white;
+  cursor: pointer;
 }
 
 .portfolio {
@@ -274,6 +277,7 @@ body {
   border-radius: 8px;
   padding: 12px 12px;
   background: var(--neutrals-n-10, #f7f7f9);
+  cursor: pointer;
 }
 
 .contact-section {
@@ -355,6 +359,7 @@ body {
   align-self: flex-start;
   border-radius: 8px;
   border: 1px solid var(--base-100, #cfd8dc);
+  cursor: pointer;
 }
 
 .email:focus,
@@ -363,7 +368,19 @@ body {
   outline: none;
 }
 
+.work-section-desktop {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
+  .work-section-desktop {
+    display: grid;
+  }
+
+  .work-section-mobile {
+    display: none;
+  }
+
   .header {
     justify-content: space-between;
     padding: 10px 9.9%;
@@ -382,6 +399,7 @@ body {
 
   .h-item {
     padding: 10px 12px;
+    cursor: pointer;
   }
 
   .logo-icon {
@@ -423,22 +441,25 @@ body {
     padding: 24px;
   }
 
-  .portfolio-snapshot {
-    width: 50%;
-    height: 100%;
-    object-fit: contain;
+  .reverse-card {
+    flex-direction: row-reverse;
   }
 
   .card-data {
     padding: 24px;
+    width: 50%;
+    gap: 24px;
   }
 
   .project-title {
     font-size: 40px;
+    margin-bottom: -12px;
   }
 
   .project-intro {
     font-size: 18px;
+    display: flex;
+    gap: 12px;
   }
 
   .project-description {
@@ -470,10 +491,10 @@ body {
   }
 
   .contact-section {
-    padding: 142px 320px 127px 320px;
+    background-image: url("./assets/desktop/contact\ form\ background\ shapes@2x.png");
+    padding: 142px 22.3% 127px 22.3%;
     border-radius: 100px 0 0 0;
-    background-size: cover;
-    background-position: inherit;
+    background-size: contain;
   }
 
   .contact-description {
