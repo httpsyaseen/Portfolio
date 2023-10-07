@@ -8,10 +8,6 @@ body {
   padding: 0;
 }
 
-p {
-  margin: 0;
-}
-
 .header {
   display: flex;
   justify-content: space-around;
@@ -399,7 +395,7 @@ p {
   }
 
   .main {
-    padding: 289px 19%;
+    padding: 221px 19% 289px 19%;
     background-image: url("./assets/desktop/Header\ bg.svg");
     background-repeat: no-repeat;
     background-size: cover;
