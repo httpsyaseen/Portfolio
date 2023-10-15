@@ -50,6 +50,10 @@ body {
   border-radius: 0 0 0 80px;
 }
 
+.portfolio-snapshot {
+  width: 100%;
+}
+
 .intro {
   color: var(--neutrals-n-800, #172b4d);
   font-family: Poppins, Arial, Helvetica, sans-serif;
@@ -416,7 +420,7 @@ body {
     padding: 221px 19% 289px 19%;
     background-image: url("./assets/desktop/Header\ bg.svg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
   }
 
@@ -518,5 +522,11 @@ body {
 
   .get-in-touch {
     align-self: center;
+  }
+
+  .portfolio-snapshot {
+    flex: 1;
+    width: 50%;
+    object-fit: contain;
   }
 }
